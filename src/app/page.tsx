@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import Pricing from "@/components/Services";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import { getAllPosts } from "@/utils/markdown";
@@ -25,9 +25,9 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <About />
-      <CallToAction />
-      <Pricing />
+      {/* <About /> */}
+      {/* <CallToAction /> */}
+      {/* <Pricing /> */}
       <Testimonials />
       <Faq />
       <Team />

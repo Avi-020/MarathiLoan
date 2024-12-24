@@ -3,10 +3,10 @@ import SectionTitle from "../Common/SectionTitle";
 import PricingBox from "./PricingBox";
 import { pricingData } from "@/stripe/pricingData";
 
-const Pricing = () => {
+const Services = () => {
   return (
     <section
-      id="pricing"
+      id="Services"
       className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
     >
       <div className="container">
@@ -22,11 +22,11 @@ const Pricing = () => {
         <div className="-mx-4 flex flex-wrap justify-center">
           {pricingData.map((product, i) => (
             <PricingBox key={i} product={product} />
-          ))}     
+          ))}
         </div>
       </div>
     </section>
   );
 };
 
-export default Pricing;
+export default Services;

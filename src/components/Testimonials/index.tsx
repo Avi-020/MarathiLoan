@@ -39,12 +39,12 @@ const Testimonials = () => {
         <SectionTitle
           subtitle="Testimonials"
           title="What our Client Say"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Discover how our services have helped businesses thrive and grow. Hear firsthand from our satisfied clients."
           width="640px"
           center
         />
 
-        <div className="mt-[60px] flex flex-wrap lg:mt-20 gap-y-8">
+        <div className="mt-[60px] flex flex-wrap gap-y-8 lg:mt-20">
           {testimonialData.map((testimonial, i) => (
             <SingleTestimonial key={i} testimonial={testimonial} />
           ))}
