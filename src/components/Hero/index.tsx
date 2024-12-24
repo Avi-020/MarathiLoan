@@ -19,8 +19,8 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-2xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-3xl lg:leading-[1.2]">
-                  "We provide business loan documentation across Maharashtra to
-                  help you start or expand your business effortlessly."
+                  We provide business loan documentation across Maharashtra to
+                  help you start or expand your business effortlessly.
                 </h1>
               </div>
             </div>
